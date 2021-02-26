@@ -25,6 +25,13 @@
     background-color: whitesmoke;
     border: dotted;
 }
+.block_four{
+    display: flex;
+    height: 500px;
+    margin: 20%;
+    background-color: whitesmoke;
+    border: dotted;
+}
 
 .first_block{
     display: flex;
@@ -133,4 +140,40 @@
     left: 5px;
     top: 145px;
     background-color: greenyellow;
+}
+
+.one_box{
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 450px;
+    border: solid;
+    border-color: rgb(45, 233, 139);
+    background-color: rgb(45, 233, 139) ;
+    left: 75px;
+    top: 22px;
+}
+
+.first_box{
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    left: 45px;
+    top: 55px;
+}
+
+.second_box{
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    left: 350px;
+    top: 290px;
 }
