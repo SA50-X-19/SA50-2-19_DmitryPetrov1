@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block_one{
+    display: flex;
+    height: 400px;
+    margin: 10%;
+    background-color: whitesmoke;
+    border: dotted;
+}
+
+.block_two{
+    display: flex;
+    height: 300px;
+    margin: 10%;
+    background-color: whitesmoke;
+    border: dotted;
+}
+.block_three{
+    display: flex;
+    height: 300px;
+    margin: 10%;
+    background-color: whitesmoke;
+    border: dotted;
+}
+
+.first_block{
+    display: flex;
+    position: relative;
+    height: 65px;
+    width: 65px;
+    border: solid;
+    border-color: red;
+    left: 45px;
+    top: 55px;
+}
+
+.second_block{
+    display: flex;
+    position: relative;
+    height: 65px;
+    width: 65px;
+    border: solid;
+    border-color: royalblue;
+    left: 75px;
+    top: 145px;
+}
+
+.third_block{
+    display: flex;
+    position: relative;
+    height: 65px;
+    width: 65px;
+    border: solid;
+    border-color: greenyellow;
+    left: 105px;
+    top: 245px;
+}
+
+
+.first_block1{
+    display: flex;
+    position: relative;
+    height: 65px;
+    width: 65px;
+    border: solid;
+    border-color: red;
+    left: 45px;
+    top: 55px;
+    background-color: red;
+}
+
+.second_block1{
+    display: flex;
+    position: relative;
+    height: 65px;
+    width: 65px;
+    border: solid;
+    border-color: royalblue;
+    left: 25px;
+    top: 100px;
+    background-color: royalblue;
+}
+
+.third_block1{
+    display: flex;
+    position: relative;
+    height: 65px;
+    width: 65px;
+    border: solid;
+    border-color: greenyellow;
+    left: 5px;
+    top: 145px;
+    background-color: greenyellow;
+}
+
+
+
+.first_block2{
+    display: flex;
+    position: relative;
+    height: 65px;
+    width: 65px;
+    border: solid;
+    border-color: red;
+    left: 45px;
+    top: 55px;
+    background-color: red;
+}
+
+.second_block2{
+    display: flex;
+    position: relative;
+    height: 65px;
+    width: 65px;
+    border: solid;
+    border-color: royalblue;
+    left: 25px;
+    top: 100px;
+    background-color: royalblue;
+    z-index: 2;
+}
+
+.third_block2{
+    display: flex;
+    position: relative;
+    height: 65px;
+    width: 65px;
+    border: solid;
+    border-color: greenyellow;
+    left: 5px;
+    top: 145px;
+    background-color: greenyellow;
+}
