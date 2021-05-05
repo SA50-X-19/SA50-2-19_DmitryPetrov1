@@ -491,24 +491,66 @@ a{
 }
 
 .items__LOGO:hover{
-    color: rgb(218, 174, 92);
+    text-shadow: palegreen 2px 3px 4px;
     transform: scale(1.1,1.1);
     transition: 1s;
     }
     
 .nav:hover{
-    color: darkcyan;
-    transition: 1.2s;
+    text-shadow: palegreen 2px 3px 4px;
     transform: scale(1.1,1.1);
+    transition: 1s;
     }
     
 .sign:hover{
-    color: darkcyan;
+    text-shadow: palegreen 2px 3px 4px;
     transform: scale(1.1,1.1);
-    transition: 1.4s;
+    transition: 1s;
     }
     
 .donate:hover{
     transform: scale(1.1,1.1);
     transition: 1s;
     }
+
+.Articles_panel:hover{
+    text-shadow: palegreen 2px 3px 4px;
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.About_panel:hover{
+    text-shadow: palegreen 2px 3px 4px;
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.Learn_panel:hover{
+    text-shadow: palegreen 2px 3px 4px;
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+.w:hover{
+    text-shadow: palegreen 2px 3px 4px;
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+.f:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.instagram:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+.p:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.telegram:hover{
+    transform: scale(1.1,1.1);
+    transition:  1s;
+}
