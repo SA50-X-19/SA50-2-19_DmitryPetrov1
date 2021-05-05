@@ -5,8 +5,7 @@
     list-style-type: none;
     color: rgb(106, 100, 100);
     text-decoration: none;
-    }
-    
+}    
 body{
     display: flex;
     background: url(./asserts/Rectangle\ \(1\).svg);
@@ -15,73 +14,63 @@ body{
     overflow: scroll;
     align-items: center;
     flex-direction: column;
-    }
-    
-    .head{
+}
+.head{
     display: flex;
     background-position: center;
     justify-content: space-between;
     height: 800px;
     width: 100%;
     max-width: 1440px;
-    }
-    
-    .header{
+}    
+.header{
     display: flex;
     background-position: center;
     height: 800px;
     width: 100%;
     max-width: 1440px;
     justify-content: space-around;
-    }
-    
-    
-    .header_left{
+}    
+.header_left{
     width: 100%;
     max-width: 250px;
     height: 50px;
     padding-top: 25px;
-    }
-    
-    .menu_left{
+}
+.menu_left{
     font-style: normal;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 32px;
     font-weight: 400px;
     line-height: 60px;
     text-align: left;
-    }
-    .logo{
+}
+.logo{
     display: flex;
     justify-content: space-around;
-    }
-    
-    .items__LOGO{
+} 
+.items__LOGO{
     color: white;
-    }
-    
-    .header_right{
+}    
+.header_right{
     width: 100%;
     max-width: 480px;
     height: 60px;
     padding-top: 25px;
-    }
-    
-    .menu{
+}    
+.menu{
     font-weight: 400px;
     font-size: 35px;
     line-height: 60px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    .menu_text{
+}    
+.menu_text{
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
-    }
-
-    .sign{
+}
+.sign{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 23px;
     font-weight: 400px;
@@ -96,11 +85,9 @@ body{
     width: 120px;
     height: 50px;
 }
-
 .sign{
     color: white;
-}
-    
+}    
 .text{
     display: flex;
     width: 250px;
@@ -127,12 +114,10 @@ body{
     background-color: transparent;
     width: 120px;
     height: 50px;
-    }
-    
+}    
 .box{
     height: 100px;
-    }
-    
+}    
 .nav{
     display: flex;
     max-width: 480px;
@@ -142,8 +127,7 @@ body{
     font-size: 23px;
     line-height: 60px;
     color: white;
-    }
-    
+}    
 .survival{
     width: 199px;
     height: 72px;
@@ -154,8 +138,7 @@ body{
     line-height: 72px;
     letter-spacing: 2px;
     color: #CD6326;
-    }
-    
+}   
 .donate{
     width: 160px;
     height: 60px;
@@ -169,18 +152,15 @@ body{
     line-height: 27px;
     text-align: center;
     color: #F7f7f7;
-    }
-    
+}    
 a{
     text-decoration: none;
     letter-spacing: 2px;
-    }
-
+}
 .articles{
     display: flex;
     justify-content: center;
 }
-
 .Latest__articles{
     width: 77%;
     height: 1368px;
@@ -188,14 +168,12 @@ a{
     background-color: white;
     border-radius: 0px;
 }
-
 .articles__txt{
     display: flex;
     height: 360px;
     align-items: center;
     justify-content: center;
 }
-
 .Latest{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -205,10 +183,9 @@ a{
     text-align: center;
     color: black;
 }
-.h3{
+.font{
     color: black;
 }
-
 .Breaking{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -218,7 +195,6 @@ a{
     text-align: center;
     color: #666666;
 }
-
 .lenta{
     display: flex;
     width: 100%;
@@ -227,24 +203,20 @@ a{
     justify-content: space-around;
     align-items: center;
 }
-
 .deer_block{
     width: 300px;
     height: 360px;
     background: url(./asserts/Deer.svg);
 }
-
 .BOXXX{
     height: 247px;
 }
-
 .TXT{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #F7f7f7;
     line-height: 40px;
     font-size: 27px;
 }
-
 .TXT__DEER{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -263,13 +235,11 @@ a{
     text-align: center;
     color: #F7f7f7;
 }
-
 .Squirrel__block{
     width: 300px;
     height: 360px;
     background: url(./asserts/Squirrel.svg);
 }
-
 .TXT__Squirrel{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -279,7 +249,6 @@ a{
     text-align: center;
     color: #F7f7f7;
 }
-
 .TXT__Squirrel_K{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -289,13 +258,11 @@ a{
     text-align: center;
     color: #F7f7f7;
 }
-
 .Bird_block{
     width: 300px;
     height: 360px;
     background: url(./asserts/Bird.svg);
 }
-
 .TXT__Bird{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -305,7 +272,6 @@ a{
     text-align: center;
     color: #F7f7f7;
 }
-
 .TXT__Bird_B{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -315,7 +281,6 @@ a{
     text-align: center;
     color: #F7f7f7;  
 }
-
 .notification{
     display: flex;
     flex-direction: column;
@@ -325,7 +290,6 @@ a{
     justify-content: center;
     align-items: center;
 }
-
 .text__notification{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 27px;
@@ -335,15 +299,12 @@ a{
     text-align: center;
     color: black;
 }
-
 .Block__notifed{
     margin: 40px;
 }
-
 .B_N{
     display: flex;
 }
-
 .Email{
     display: flex;
     width: 510px;
@@ -356,7 +317,6 @@ a{
     align-items: center;
     color: black;
 }
-
 .Send{
     width: 120px;
     height: 59px;
@@ -373,18 +333,15 @@ a{
     color: #F7f7f7;
     text-decoration: none;
 }
-
 .wildlife__footer{
     display: flex;
     justify-content: center;
 }
-
 .footer{
     width: 100%;
     max-width: 1440px;
     background-image: url(./asserts/fonpanel.svg);
 }
-
 .block__bottom{
     display: flex;
     width: 1112px;
@@ -393,7 +350,6 @@ a{
     justify-content: space-around;
     align-items: center;
 }
-
 .bottom{
     display: flex;
     width: 260px;
@@ -406,11 +362,9 @@ a{
     line-height: 60px;
     text-transform: uppercase;
 }
-
 .w{
     color: #F7f7f7;
 }
-
 .bottom__panel{
     display: flex;
     width: 500px;
@@ -418,13 +372,11 @@ a{
     align-items: center;
     justify-content: space-around;
 }
-
 .text__panel{
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
-
 .Articles_panel{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -433,7 +385,6 @@ a{
     line-height: 60px;
     color: #F7f7f7;
 }
-
 .About_panel{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -442,7 +393,6 @@ a{
     line-height: 60px;
     color: #F7f7f7;
 }
-
 .Learn_panel{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -451,68 +401,56 @@ a{
     line-height: 60px;
     color: #F7f7f7;
 }
-
 .seti{
     display: flex;
     width: 250px;
     height: 50px;
     align-items: center;
 }
-
 .soc_seti{
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
-
 .deer_block:hover{
     transform: scale(1.1,1.1);
     transition: 1s;
 }
-
 .Squirrel__block:hover{
     transform: scale(1.1,1.1);
     transition: 1s;
 }
-
 .Bird_block:hover{
     transform: scale(1.1,1.1);
     transition: 1s;
 }
-
 .arrow:hover{
     transform: rotate(360deg);
     transition: 1s;
 }
-
 .Send:hover{
     transform: scale(1.1,1.1); 
     transform: 1s;
 }
-
 .items__LOGO:hover{
     text-shadow: palegreen 2px 3px 4px;
     transform: scale(1.1,1.1);
     transition: 1s;
-    }
-    
+}
 .nav:hover{
     text-shadow: palegreen 2px 3px 4px;
     transform: scale(1.1,1.1);
     transition: 1s;
-    }
-    
+}
 .sign:hover{
     text-shadow: palegreen 2px 3px 4px;
     transform: scale(1.1,1.1);
     transition: 1s;
-    }
-    
+}
 .donate:hover{
     transform: scale(1.1,1.1);
     transition: 1s;
-    }
-
+}
 .Articles_panel:hover{
     text-shadow: palegreen 2px 3px 4px;
     transform: scale(1.1,1.1);
@@ -528,28 +466,23 @@ a{
     transform: scale(1.1,1.1);
     transition: 1s;
 }
-
 .w:hover{
     text-shadow: palegreen 2px 3px 4px;
     transform: scale(1.1,1.1);
     transition: 1s;
 }
-
 .f:hover{
     transform: rotate(360deg);
     transition: 1s;
 }
-
 .instagram:hover{
     transform: scale(1.1,1.1);
     transition: 1s;
 }
-
 .p:hover{
     transform: rotate(360deg);
     transition: 1s;
 }
-
 .telegram:hover{
     transform: scale(1.1,1.1);
     transition:  1s;
