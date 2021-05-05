@@ -374,6 +374,97 @@ a{
     text-decoration: none;
 }
 
+.wildlife__footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1440px;
+    background-image: url(./asserts/fonpanel.svg);
+}
+
+.block__bottom{
+    display: flex;
+    width: 1112px;
+    height: 400px;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom{
+    display: flex;
+    width: 260px;
+    height: 60px;
+    justify-content: space-around;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.w{
+    color: #F7f7f7;
+}
+
+.bottom__panel{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text__panel{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Articles_panel{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7f7f7;
+}
+
+.About_panel{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7f7f7;
+}
+
+.Learn_panel{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7f7f7;
+}
+
+.seti{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+}
+
+.soc_seti{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
 .deer_block:hover{
     transform: scale(1.1,1.1);
     transition: 1s;
