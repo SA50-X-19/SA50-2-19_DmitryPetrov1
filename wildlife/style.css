@@ -372,11 +372,31 @@ a{
     text-align: center;
     color: #F7f7f7;
     text-decoration: none;
-    letter-spacing:
+}
+
+.deer_block:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+.Squirrel__block:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+.Bird_block:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
 }
 
 .arrow:hover{
-    transform: scale(1.1,1.1);
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.Send:hover{
+    transform: scale(1.1,1.1); 
+    transform: 1s;
 }
 
 .items__LOGO:hover{
