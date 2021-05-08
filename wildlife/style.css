@@ -305,6 +305,15 @@ a{
 .B_N{
     display: flex;
 }
+=======
+
+.Block__notifed{
+    margin: 40px;
+}
+
+.B_N{
+    display: flex;
+}
 .Email{
     display: flex;
     width: 510px;
